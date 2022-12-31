@@ -1,3 +1,6 @@
+// `include"/mnt/d/CPU/CxkPU/riscv/src/cpu.v"
+// `include"/mnt/d/CPU/CxkPU/riscv/src/ram.v"
+// `include"/mnt/d/CPU/CxkPU/riscv/src/hci.v"
 // riscv top module file
 // modification allowed for debugging purposes
 
@@ -101,7 +104,6 @@ cpu cpu0(
 	.clk_in(clk),
 	.rst_in(rst | program_finish),
 	.rdy_in(cpu_rdy),
-
 	.mem_din(cpu_ram_din),
 	.mem_dout(cpu_ram_dout),
 	.mem_a(cpu_ram_a),
