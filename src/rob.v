@@ -178,7 +178,7 @@ assign testval=value[nowPtr];
                 //commit! now!
                 if(ready[nowPtr]==`TRUE&&head!=tail)begin
                     if(status==IDLE)begin
-                        $display($time," [ROB] Start Committing : ",nowPtr," opcode: %b",op[nowPtr], " pc: %h",pcs[nowPtr]);
+                     //   $display($time," [ROB] Start Committing : ",nowPtr," opcode: %b",op[nowPtr], " pc: %h",pcs[nowPtr]);
                    //     if(op[nowPtr]==`OPENUM_JALR) $display($time," [ROB] newpc= ",newpc[nowPtr]," opcode: %b",op[nowPtr], " newpc: %h",newpc[nowPtr]);
                                 
                         case (op[nowPtr])
