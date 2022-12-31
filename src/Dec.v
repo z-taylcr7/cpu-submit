@@ -1,5 +1,5 @@
 
-
+`include"definition.v"
 module decoder (
     input clk,input rst,input rdy,
 

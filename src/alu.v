@@ -1,4 +1,4 @@
-
+`include"definition.v"
 module ALU (
     input clk,input rst,input rdy,
     // input from rs 

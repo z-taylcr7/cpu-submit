@@ -1,4 +1,4 @@
-
+`include"definition.v"
 module lsb(
     input clk,input rst,input rdy,
 

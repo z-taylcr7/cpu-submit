@@ -1,4 +1,4 @@
-
+`include"definition.v"
 module rob(
     input wire clk,
     //rst is currently false!

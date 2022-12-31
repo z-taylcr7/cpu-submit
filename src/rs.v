@@ -1,4 +1,4 @@
-
+`include"definition.v"
 module RS (
     input clk,input rst,input rdy,
     // from fetcher to decide whether to store the input

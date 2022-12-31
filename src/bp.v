@@ -1,4 +1,4 @@
-
+`include"definition.v"
 module bp(
     input wire clk,
     input wire rst,
