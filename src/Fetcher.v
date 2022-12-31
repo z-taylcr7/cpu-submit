@@ -1,4 +1,4 @@
-
+`include"definition.v"
 module fetcher (
     input clk,input rst,input rdy,
     
