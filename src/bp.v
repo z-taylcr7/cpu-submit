@@ -21,7 +21,7 @@ module bp(
     always@(posedge clk) begin 
         if(rst == `TRUE) begin 
             for(i=0;i<256;i=i+1) begin 
-                predictor_table[i] <= 2'b11;
+                predictor_table[i] <= 2'b10;
             end
         end else if(rdy == `TRUE) begin 
             if(in_rob_bp_res == `TRUE) begin 
